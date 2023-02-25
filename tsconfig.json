@@ -1,0 +1,4 @@
+{
+  "extends": "@igrek8/typescript/common.json",
+  "include": ["src", "cli"]
+}

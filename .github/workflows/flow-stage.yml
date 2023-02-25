@@ -1,0 +1,21 @@
+name: flow-stage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  format:
+    uses: igrek8/github-workflows/.github/workflows/job-format.yml@main
+  lint:
+    uses: igrek8/github-workflows/.github/workflows/job-lint.yml@main
+  build:
+    uses: igrek8/github-workflows/.github/workflows/job-build.yml@main
+  release:
+    needs: [format, lint, build]
+    uses: igrek8/github-workflows/.github/workflows/job-release.yml@main
+    with:
+      artifact-name: dist
+      artifact-path: dist
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

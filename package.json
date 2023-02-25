@@ -1,0 +1,58 @@
+{
+  "name": "@igrek8/typedoc",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "cli.js",
+    "typedoc.js",
+    "public/index.html"
+  ],
+  "bin": "cli.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@igrek8/eslint-config"
+    ],
+    "env": {
+      "node": true
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "extends": [
+      "@igrek8/semantic-release"
+    ]
+  },
+  "prettier": "@igrek8/prettier",
+  "scripts": {
+    "lint": "eslint \"**/*\"",
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --check \"**/*\""
+  },
+  "peerDependencies": {
+    "commander": "^10",
+    "gh-pages": "^5",
+    "typedoc": "^0",
+    "typedoc-plugin-markdown": "^3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@igrek8/eslint-config": "1.0.6",
+    "@igrek8/prettier": "1.0.1",
+    "@igrek8/semantic-release": "1.0.2",
+    "@igrek8/typescript": "1.0.0",
+    "commander": "10.0.0",
+    "typedoc": "0.23.25",
+    "typedoc-plugin-markdown": "3.14.0",
+    "gh-pages": "5.0.0",
+    "husky": "8.0.3"
+  }
+}
