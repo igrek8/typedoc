@@ -15,6 +15,7 @@ export default program
     const options: ExecSyncOptionsWithBufferEncoding = { cwd, env: process.env, stdio: 'inherit' };
     const typedocOptions = path.join(__dirname, '..', '..', 'typedoc.js');
     const typedoc = path.resolve(require.resolve('typedoc/package.json'), '..', 'bin', 'typedoc');
+    const page = path.join(__dirname, '..', '..', 'public', 'index.html');
     execSync(`${typedoc} --out ${out} --options ${typedocOptions}`, options);
-    writeFileSync(path.join(cwd, out, 'index.html'), readFileSync(path.join(cwd, 'public', 'index.html')));
+    writeFileSync(path.join(cwd, out, 'index.html'), readFileSync(page));
   });
