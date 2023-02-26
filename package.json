@@ -4,11 +4,13 @@
   "license": "MIT",
   "files": [
     "dist",
-    "cli.js",
+    "bin",
     "typedoc.js",
     "public/index.html"
   ],
-  "bin": "cli.js",
+  "bin": {
+    "typedoc": "bin/typedoc"
+  },
   "publishConfig": {
     "access": "public"
   },
