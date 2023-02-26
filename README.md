@@ -1,4 +1,4 @@
-@igrek8/typedoc-config / [Exports](modules.md)
+@igrek8/typedoc / [Exports](modules.md)
 
 # @igrek/nodejs-template
 

@@ -1,6 +1,6 @@
-[@igrek8/typedoc-config](README.md) / Exports
+[@igrek8/typedoc](README.md) / Exports
 
-# @igrek8/typedoc-config
+# @igrek8/typedoc
 
 ## Table of contents
 
@@ -29,4 +29,4 @@ Returns a sum of two numbers
 
 #### Defined in
 
-[sum.ts:4](https://github.com/igrek8/typedoc-config/blob/435bc2b/src/sum.ts#L4)
+[sum.ts:4](https://github.com/igrek8/typedoc-config/blob/1583908/src/sum.ts#L4)
