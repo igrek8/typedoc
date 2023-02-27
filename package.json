@@ -52,7 +52,7 @@
     "@igrek8/semantic-release": "1.0.2",
     "@igrek8/typescript": "1.0.0",
     "commander": "10.0.0",
-    "typedoc": "0.23.25",
+    "typedoc": "0.23.26",
     "typedoc-plugin-markdown": "3.14.0",
     "gh-pages": "5.0.0",
     "husky": "8.0.3"
