@@ -50,7 +50,7 @@
     "@igrek8/eslint-config": "1.0.6",
     "@igrek8/prettier": "1.0.1",
     "@igrek8/semantic-release": "1.0.2",
-    "@igrek8/typescript": "1.0.0",
+    "@igrek8/typescript": "1.0.1",
     "commander": "10.0.0",
     "typedoc": "0.23.25",
     "typedoc-plugin-markdown": "3.14.0",
