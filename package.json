@@ -29,10 +29,10 @@
   },
   "release": {
     "extends": [
-      "@igrek8/semantic-release"
+      "@igrek8/semantic-release-config"
     ]
   },
-  "prettier": "@igrek8/prettier",
+  "prettier": "@igrek8/prettier-config",
   "scripts": {
     "lint": "eslint \"**/*\"",
     "build": "tsc -p tsconfig.build.json",
@@ -48,9 +48,9 @@
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "17.4.4",
     "@igrek8/eslint-config": "1.0.6",
-    "@igrek8/prettier": "1.0.1",
-    "@igrek8/semantic-release": "1.0.2",
-    "@igrek8/typescript": "1.0.1",
+    "@igrek8/prettier-config": "1.0.11",
+    "@igrek8/semantic-release-config": "1.0.11",
+    "@igrek8/tsconfig": "1.0.11",
     "commander": "10.0.0",
     "typedoc": "0.23.26",
     "typedoc-plugin-markdown": "3.14.0",
