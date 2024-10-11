@@ -54,7 +54,7 @@
     "commander": "12.1.0",
     "typedoc": "0.26.8",
     "typedoc-plugin-markdown": "4.2.9",
-    "gh-pages": "6.1.1",
+    "gh-pages": "6.2.0",
     "husky": "9.1.6"
   }
 }
